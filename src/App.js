@@ -21,36 +21,36 @@ function App() {
 
   return (
     <div className="App">
-      Calculador
+      <strong className='calculadora'>Calculadora</strong>
       <div>
         <input type="text" value={valor} readOnly />
       </div>
       <div>
-        <Boton hacerClick={hacerClick}>1</Boton>
-        <Boton hacerClick={hacerClick}>2</Boton>
-        <Boton hacerClick={hacerClick}>3</Boton>
-        <Boton hacerClick={hacerClick}>+</Boton>
+        <Boton className = 'botones' hacerClick={hacerClick}>1</Boton>
+        <Boton className = 'botones' hacerClick={hacerClick}>2</Boton>
+        <Boton className = 'botones' hacerClick={hacerClick}>3</Boton>
+        <Boton className = 'botones' hacerClick={hacerClick}>+</Boton>
       </div>
       <div>
-        <Boton hacerClick={hacerClick}>4</Boton>
-        <Boton hacerClick={hacerClick}>5</Boton>
-        <Boton hacerClick={hacerClick}>6</Boton>
-        <Boton hacerClick={hacerClick}>-</Boton>
+        <Boton className = 'botones' hacerClick={hacerClick}>4</Boton>
+        <Boton className = 'botones' hacerClick={hacerClick}>5</Boton>
+        <Boton className = 'botones' hacerClick={hacerClick}>6</Boton>
+        <Boton className = 'botones' hacerClick={hacerClick}>-</Boton>
       </div>
       <div>
-        <Boton hacerClick={hacerClick}>7</Boton>
-        <Boton hacerClick={hacerClick}>8</Boton>
-        <Boton hacerClick={hacerClick}>9</Boton>
-        <Boton hacerClick={hacerClick}>*</Boton>
+        <Boton className = 'botones' hacerClick={hacerClick}>7</Boton>
+        <Boton className = 'botones' hacerClick={hacerClick}>8</Boton>
+        <Boton className = 'botones' hacerClick={hacerClick}>9</Boton>
+        <Boton className = 'botones' hacerClick={hacerClick}>*</Boton>
       </div>
       <div>
-        <Boton hacerClick={hacerClick}>.</Boton>
-        <Boton hacerClick={hacerClick}>0</Boton>
-        <Boton hacerClick={calcularClick}>=</Boton>
-        <Boton hacerClick={hacerClick}>/</Boton>
+        <Boton className = 'botones' hacerClick={hacerClick}>.</Boton>
+        <Boton className = 'botones' hacerClick={hacerClick}>0</Boton>
+        <Boton className = 'botones' hacerClick={calcularClick}>=</Boton>
+        <Boton className = 'botones' hacerClick={hacerClick}>/</Boton>
       </div>
       <div>
-        <button onClick={() => setValor("")}>Clear</button>
+        <button className = 'botones' onClick={() => setValor("")}>Clear</button>
       </div>
     </div>
   );

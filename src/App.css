@@ -1,3 +1,19 @@
 .App {
   text-align: center;
 }
+
+body{
+  background-image: url(https://i.pinimg.com/originals/0e/9a/03/0e9a039b517a60aaae310c0d5bed839f.jpg);
+}
+
+.calculadora{
+  color:aqua;
+  text-align: center;
+  font-size: 35px;
+}
+
+.botones{
+  background-color: rgb(230, 251, 198); 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+}
